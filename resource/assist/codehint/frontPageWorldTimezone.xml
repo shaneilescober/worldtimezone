@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codehint>
+    <var value="location" name="Location that will be used to show in front."></var>
+    <var value="format" name="Time format that will be used to show in front."></var>
+    <var value="prev" name="Previous button"></var>
+    <var value="next" name="Next button"></var>
+    <var value="search_area" name="Area that includes search text box and text button"></var>
+    <var value="time_area" name="Area where time, date and location is displayed"></var>
+    <var value="search" name="Classname for search area"></var>
+    <var value="others" name="Classname for div where search results will be shown"></var>
+    <var value="more" name="Classname more or less tag"></var>
+</codehint>

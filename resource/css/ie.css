@@ -1,0 +1,15 @@
+
+.dropdown  { margin-top/*\**/: 20px\9 !important; margin-left/*\**/: -297px\9 !important;} /* ie7 */
+.dropdown {margin-top: 0px\0/ !important;margin-left: 45px\0/ !important;} /* must go at the END of all rules */
+
+/* ie quirks mode */
+
+/* \*/
+
+* html  .template_setting .template_icon img {width:200px;height:144px !important;vertical-align:top;display:block;margin:10px 0 0 0;}
+* html #pg_worldtimezone_selectedtimezone {height:20px;}
+* html .btn_nor_01 {height:20px;}
+* html #pg_worldtimezone_searchtext {height:20px;}
+* html .dropdown {width:287px !important;max-height:88px;height:88px;margin-left:-287px !important;}
+* html #pg_worldtimezone_searchresult {width:290px !important;}
+/* */

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+    <langs support="en" default="en"></langs>
+    <api use="on">
+        <ifs>
+            <if class="apiBuilderLib" permission="off" desc="Api for the builder library"></if>
+            <if class="apiGetCity" permission="off" desc="Api for getting city"></if>
+            <if class="apiGetCountry" permission="off" desc="Api for getting country"></if>
+            <if class="apiGetDatetime" permission="off" desc="Api for getting date and time of specified location"></if>
+            <if class="apiGetFrontSearch" permission="off" desc="Api for getting details of searched location from front"></if>
+            <if class="apiGetGmt" permission="off" desc="Api for getting gmt of location"></if>
+            <if class="apiGetSetting" permission="off" desc="Api for getting settings for front"></if>
+        </ifs>
+    </api>
+    <admin use="on" index="adminPageWorldTimezone">
+        <ifs>
+            <if class="adminExecWorldTimezone" permission="off" desc="saving settings of worldtimezone for front"></if>
+            <if class="adminPageSettings" permission="off" desc="settings for worldtimezone"></if>
+            <if class="adminPageManage" permission="off" desc="manage sequence"></if>
+        </ifs>
+        <menus>
+        </menus>
+    </admin>
+    <front use="on">
+        <ifs>
+            <if class="frontPageWorldTimezone" permission="off" code-assist="on" desc="Front for worldtimezone app"></if>
+        </ifs>
+    </front>
+</application>
